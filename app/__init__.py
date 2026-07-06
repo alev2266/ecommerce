@@ -15,7 +15,7 @@ def create_app():
     migrate.init_app(app, db)
 
     #Modelos
-    from app.models import Usuario
+    from app.models import Usuario, Categoria, Producto, Pedido, DetallePedido
 
     #Blueprints
     #agregando a un factory
